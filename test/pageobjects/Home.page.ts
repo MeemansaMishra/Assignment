@@ -11,7 +11,7 @@ class HomePage extends Page {
      */
 
     private get menu() {
-        return $("(//span[text()='Solutions'])[1]");
+        return $("(//span[@class='menu-text'])[1]");
     }
 
     private get qualityAssurance() {
